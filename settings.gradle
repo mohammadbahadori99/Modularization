@@ -14,3 +14,13 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Modularization"
 include ':app'
+include ':core'
+include ':components'
+include ':hero'
+include ':hero:hero-datasource-test'
+include ':hero:hero-domain'
+include ':hero:hero-datasource'
+include ':hero:hero-interactors'
+include ':hero:ui-heroList'
+include ':hero:ui-heroDetail'
+

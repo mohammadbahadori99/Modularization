@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="11" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="Modularization.app" target="11" />
+      <module name="Modularization.buildSrc" target="11" />
+      <module name="Modularization.components" target="11" />
+      <module name="Modularization.hero.hero-datasource" target="11" />
+      <module name="Modularization.hero.hero-datasource-test" target="11" />
+      <module name="Modularization.hero.ui-heroDetail" target="11" />
+      <module name="Modularization.hero.ui-heroList" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
